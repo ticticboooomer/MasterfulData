@@ -80,6 +80,9 @@ minecraft {
                 "${mod_id}" {
                     source sourceSets.main
                 }
+                "${test_mod_id}" {
+                    source sourceSets.test
+                }
             }
         }
 
