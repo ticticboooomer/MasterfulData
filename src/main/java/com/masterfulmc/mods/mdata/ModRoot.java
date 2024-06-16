@@ -1,11 +1,11 @@
 package com.masterfulmc.mods.mdata;
 
-import com.masterfulmc.mods.mdata.config.ConfigTypeRegistry;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 @Mod(Ref.ID)
 public class ModRoot {
     public ModRoot() {
-
+        // after registry init
+        //: ResolvedRegistryMappedCodec.ALL.populate();
     }
 }

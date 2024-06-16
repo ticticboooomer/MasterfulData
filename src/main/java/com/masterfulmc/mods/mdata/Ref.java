@@ -15,4 +15,8 @@ public class Ref {
     public static class DataTypes {
         public static final ResourceLocation STRING = id("datatype/string");
     }
+
+    public static class DataRefTypes {
+        public static final ResourceLocation LITERAL = id("ref/literal");
+    }
 }

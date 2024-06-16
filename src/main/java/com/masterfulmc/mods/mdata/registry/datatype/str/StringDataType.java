@@ -16,6 +16,11 @@ public class StringDataType extends MDataType {
     }
 
     @Override
+    public Class<? extends MDataValue> getValueClass() {
+        return StringDataValue.class;
+    }
+
+    @Override
     public Codec<? extends MDataValue> codec() {
         return CODEC;
     }

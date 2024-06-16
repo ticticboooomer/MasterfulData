@@ -1,6 +1,5 @@
 package com.masterfulmc.mods.mdata.config.base;
 
-import com.masterfulmc.mods.mdata.base.IMRegistryEntry;
 import com.mojang.serialization.Codec;
 
 import java.nio.file.Path;
